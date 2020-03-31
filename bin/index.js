@@ -34,7 +34,7 @@ async function run() {
     privateKey: '/Users/jaydeepparmar/.ssh/id_rsa'
   });
   
-  const watcher = chokidar.watch(dirToWatch, { ignored: /^\./, persistent: true });
+  const watcher = chokidar.watch(dirToWatch, { ignored: [/^\./, /node_modules/, /\.git/], persistent: true });
   
   watcher
     .on('change', updater.uploadNewFile({nodeSsh, sshDestDir}))

@@ -1,6 +1,6 @@
 {
   "name": "@jaydeep987/ssh-watcher-updater",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Watches for file updates and update in ssh server",
   "main": "bin/index.js",
   "scripts": {
