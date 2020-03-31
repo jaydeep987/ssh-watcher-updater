@@ -1,17 +1,17 @@
 {
   "name": "@jaydeep987/ssh-watcher-updater",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Watches for file updates and update in ssh server",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": ">=10"
   },
   "bin": {
-    "ssh-watcher-updater": "./index.js"
+    "ssh-watcher-updater": "./bin/index.js"
   },
   "author": "jaydeep987",
   "license": "ISC",
