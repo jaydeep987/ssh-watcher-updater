@@ -1,0 +1,26 @@
+{
+  "name": "ssh-watcher-updater",
+  "version": "1.0.0",
+  "description": "Watches for file updates and update in ssh server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "bin": {
+    "ssh-watcher-updater": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.3.1",
+    "node-ssh": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydeep987/ssh-watcher-updater.git"
+  }
+}
